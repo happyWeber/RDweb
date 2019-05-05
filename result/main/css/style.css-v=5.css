@@ -1,0 +1,1892 @@
+html{
+	overflow-x: hidden!important;
+}
+body{
+	overflow-x: hidden!important;
+}
+a:hover{
+	text-decoration: none;
+}
+.lists-ul li a:hover{
+	color: #2495e4;
+}
+
+.notice-bg {
+	background: #eee;
+    padding: 0 30px 10px;
+    padding-bottom: 37px
+}
+
+.hotnotice-bg {
+	padding-right: 30px;
+}
+
+@media(max-width:768px){
+	.lists-ul li {
+		height: 62px;
+	}
+	.mob-content {
+		padding: 0px;
+	}
+	.notice-bg {
+		padding: 0px 15px
+	}
+	.mob-left {
+		margin-left: 0px;
+	}
+	.notices-i {
+		left: 15px!important;
+	}
+	.hotnotice-bg {
+		padding-right: 15px;
+	}
+	.all {
+		margin-right: 0px!important;
+	}
+}
+
+body{
+	font-family: "微软雅黑";
+}
+.regulations li a .a-box {
+	/*display: none;*/
+}
+.header .right input{
+	background:url("../images/search.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/search.png*/) no-repeat;
+	background-position: 148px;
+	border:1px solid #ccc;
+	border-radius: 2px;
+	padding-right: 25px;
+	vertical-align: middle;
+}
+.header{
+	position: fixed;
+	background: #fff;
+	top:0;
+	z-index: 999;
+	width:100%;
+	box-shadow: 0px 2px 6px #999;
+}
+.head-top{
+	height: 80px;
+	border-bottom:1px solid #ccc;
+	line-height: 80px;
+	overflow: hidden;
+}
+.head-top input{
+	height: 32px;
+	padding:0 5px;
+	color: #999;
+	font-size: 14px;
+}
+.head-top .right a{
+	width:100px;
+	margin-left: 15px;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background-color: #2495e4;
+	text-decoration: none;
+}
+
+.head-bottom ul.par-ul{
+	margin:0;
+	padding:0;
+	font-size: 0;
+	z-index: 999;
+}
+.head-bottom ul.par-ul li{
+	display: inline-block;
+
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	min-width:9.24%;
+}
+.head-bottom ul.par-ul li a{
+	width:100%;
+	display: inline-block;
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	padding:0 18px;
+}
+.head-bottom ul.par-ul li a.active{
+	background-color: #2495e4;
+	color: #fff;
+}
+.head-bottom ul.par-ul li a:hover{
+	background-color: #2495e4;
+	color: #fff;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.banner{
+	height: 200px;
+	background: url("../images/banner.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/banner.png*/) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+.banner-index{
+		height: 420px;
+		background: url("../images/banner.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/banner.png*/) no-repeat!important;
+		background-size: cover!important;
+	
+}
+.banner-rmdx{
+	background: url("../images/rmdx.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/rmdx.png*/) no-repeat!important;
+	/*background-size: cover;*/
+	background-position: center;
+	background-size:cover!important;
+}
+
+.banner-lists{
+	background: url("../images/tsg.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/tsg.png*/) no-repeat!important;
+	background-position: center!important;
+	background-size: cover!important;
+}
+.banner h3{
+	color: #fff;
+	font-weight:bold;
+	text-align: center;
+	padding:70px 0 0px;
+	margin:0;
+	position: relative;
+}
+.banner span.english{
+	font-family:"微软雅黑";
+	font-size: 24px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.6);
+	position: relative;
+}
+.footer{
+}
+.foot-top {
+	background-color: #000;
+	// height: 250px;
+	padding:0 22px;
+	padding-bottom: 30px;
+}
+@media(max-width:768px){
+	padding:34px 0 46px;
+}
+.foot-top h4{
+	color:#2495e4;
+	margin:30px 0 26px;
+}
+@media(max-width:768px){
+	.foot-top h4{
+		font-size: 20px;
+	}
+}
+
+
+.foot-top .en-title{
+	color: #999;
+	font-size: 16px;
+	margin-left: 20px;
+	display: inline-block;
+	font-weight:100;
+}
+
+.foot-top ul{
+	font-size: 0;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+@media(max-width:768px){
+	.foot-top ul{
+		margin-bottom: -30px;
+	}
+}
+.foot-top ul li{
+	/* // min-width: 240px; */
+	float: left;
+	height: 40px;
+	width:40%;
+}
+/* // 图标： */
+
+.foot-top ul li span.i-email{
+	background: url("../images/email.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/email.png*/) no-repeat;
+}
+.foot-top ul li span.i-phone{
+	background: url("../images/phone.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/phone.png*/) no-repeat;
+}
+.foot-top ul li span.i-add{
+	background: url("../images/add.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/add.png*/) no-repeat;
+}
+.foot-top ul li span.i-fax{
+	background: url("../images/fax.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/fax.png*/) no-repeat;
+}
+.foot-top ul li,.foot-top ul li a{
+	font-size: 14px;
+	color: #fff;
+}
+
+@media(min-width:769px){
+	.foot-bottom {
+		background-color: #fff;
+		color: #999;
+		font-size: 14px;
+		height: 82px;
+		padding:25px 0;
+	}
+	.foot-bottom .img-box{
+		float: right;
+	}
+}
+.sx-h2{
+	padding-bottom: 0;
+}
+@media(max-width:768px){
+	// .sx-h2{
+	// 	border:none;
+	// 	padding-bottom: 40px;
+	// }
+	.foot-bottom {
+		background-color: #fff;
+		color: #999;
+		font-size: 14px;
+		padding:23px 0;
+		text-align: center;
+		// overflow: hidden;
+
+	}
+	.foot-bottom .left{
+		line-height: 26px;
+		float: none;
+		display: block;
+		margin-bottom: 15px;
+	}
+	.foot-bottom .right: {
+		float: none;
+		text-align: center;
+	}
+}
+.foot-bottom img{
+
+}
+.foot-bottom a{
+	border:1px solid #999;
+	width:82px;
+	height:32px ;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	color: #999;
+	text-decoration: none;
+
+	border-radius: 5px;
+}
+.w120{
+	display: inline-block;
+	margin-right: 30px;
+}
+.w20{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#detail .content{
+	margin:30px 0;
+}
+// #detail .content .list-box ul{
+// 	list-style-type: none;
+// 	padding:0;
+// 	margin:0;
+// 	display: table-cell;
+// }
+// #detail .content .list-box li{
+// 	border:1px solid #ccc;
+// 	height: 80px;
+// 	// line-height: 80px;
+// 	line-height: 20px;
+// 	vertical-align: middle;
+// 	width:100%;
+// 	padding:0 15px;
+// 	margin-bottom: -1px;
+// }
+// #detail .content .list-box li.active{
+// 	background: #3395e2;
+// 	color: #fff;
+// 	border:1px solid #3395e2;
+// }
+// #detail .content .list-box li.active a{
+// 	color: #fff;
+// }
+// #detail .content .list-box li a{
+// 	font-size: 16px;
+// 	color: #333;
+// 	display: inline-block;
+// 	width: 83%;
+
+// }
+.content-box ul.nav-ul{
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+}
+@media(max-width:768px){
+	border-bottom: none;
+}
+
+.content-box ul.nav-ul li{
+	display: inline-block;
+	min-width:80px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	padding:0 5px;
+
+}
+.content-box ul li{
+	display: inline-block;
+	// min-width:60px;
+	// height: 40px;
+	font-size: 14px;
+	position: relative;
+
+}
+.content-box ul.lists-ul{
+	padding:0;
+	margin-top: -20px;
+}
+.content-box ul.lists-ul li{
+	line-height: 70px;
+	height: 70px;
+	white-space: nowrap;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: 14px;
+	border-bottom: 1px solid #e5e5e5;width:100%;
+}
+@media(max-width:768px){
+	.content-box ul.lists-ul li{
+		line-height: 62px;
+		height: 62px;
+	}
+	
+}
+
+.content-box ul.lists-ul li a{
+	display: inline-block;
+	/* width:70%; */
+	white-space: nowrap;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: 16px;
+	color: #333;
+}
+.content-box ul li span.icon{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	position: absolute;
+	top:0;
+	left: -30px;
+}
+.content-box ul li a{
+	color: #999;
+	font-size: 12px;
+}
+@media(max-width:768px){
+	.content-box ul li a{
+		color: #999;
+		font-size: 14px;
+	}
+}
+.content-box ul li a.active{
+	color: #2495e4;
+	font-size: 14px;
+}
+
+.content-box .article h2{
+	border-bottom:1px solid #e5e5e5;
+	font-size: 22px;
+	padding-bottom: 20px;
+	// margin-bottom: 30px;
+}
+@media(max-width:768px){
+	.content-box .article{
+		// border-bottom: 1px solid #ccc;
+		margin-left: -15px;
+		margin-right: -15px;
+		padding:0 15px;
+	}
+	.content-box .article h2{
+		border-bottom:1px solid #e5e5e5;
+		font-size: 20px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		font-weight: 300;
+		line-height: 22px;
+	}
+	.content-box .article h2.sx-h2{
+		border:none;
+		margin-bottom: 20px;
+	}
+}
+.content-box .article .date{
+	display: block;
+	font-size: 14px;
+	color: #999;
+	margin-top: 15px;
+	font-weight: 200;
+    font-family: "微软雅黑";
+}
+.content-box .article .main{
+	 /*padding:0 30px;*/
+}
+.content-box .article .main h3{
+	font-size: 1.2em;
+	font-weight:bolder;
+	margin:0 0 30px;
+	text-indent: 2em;
+}
+.content-box .article .main p{
+	margin:30px 0;
+	line-height: 28px;
+	font-size: 1em;
+	text-align: justify;
+	text-indent: 2em
+
+}
+.content-box .article .main img{
+	width:100%!important;
+	text-align:center; 
+}
+.content-box .linkus{
+	background: #f1f1f1;
+	padding:35px;
+}
+.content-box .linkus ul{
+	margin:0 auto;
+	border:none;
+}
+.content-box .linkus ul li{
+	width:45%;
+	text-align: left;
+}
+.toolbox_fontsize,.toolbox_fontsize span{
+	float: right;
+	height:20px;
+}
+.toolbox_fontsize span{
+	margin: 0 5px;
+	line-height: 20px;
+	color: #999999;
+	cursor: pointer;
+}
+.toolbox_fontsize span:not(:last-child):hover,.toolbox_fontsize span.cur{
+	color: #333;
+	text-decoration: underline;
+}
+.toolbox_fontsize span.f1{
+	font-size: 12px;
+}
+.toolbox_fontsize span.f2{
+	font-size: 14px;
+}
+.toolbox_fontsize span.f3{
+	font-size: 16px;
+}
+/*// ul{
+// 	list-style-type: none;
+// 	padding:0;
+// 	margin:0;
+// }*/
+
+
+
+.index {
+	position: relative;
+}
+
+@media(max-width:767px){
+	.banner-index{
+		height: 100px;
+		background: url("../images/b-m-index.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/b-m-index.png*/) no-repeat;
+		background-size: cover;
+	}		
+}
+.banner-list{
+	background: url("../images/b-m-index.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/b-m-index.png*/) no-repeat;
+	background-size: cover;
+}
+/*// .banner-lists{
+// 	background: url("../images/b-m-index.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/b-m-index.png*/) no-repeat;
+// 	background-size: cover;
+// 	background-position: center;
+// }*/
+.banner-detail{
+	background: url("../images/tsg.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/tsg.png*/) no-repeat;
+	background-size: cover;
+}
+
+.menu-box ul {
+	font-size: 0;
+	margin-top: -130px;
+	padding: 0;
+	overflow: hidden;
+	height: 130px;
+}
+
+.menu-box ul li{
+	display: inline-block;
+	width:16.66%;
+	box-sizing:border-box;
+	padding-right: 1px;
+	float: left;
+}
+.menu-box ul li div{
+	background: rgba(0,0,0,0.65);
+	width:100%;
+	height: 130px;
+	padding:18px;
+	text-align: center;
+}
+.menu-box ul li a{
+	position: relative;
+	display: inline-block;
+	// padding-right: 40px;
+	margin-top:-10px;
+}
+.menu-box ul li:hover div{
+	background:  #3395e2;
+}
+.menu-box ul li:hover span.icon-s{
+	display: block;
+}
+.menu-box ul li span.icon{
+	display:block;
+	width:54px;
+	height: 60px;
+	margin:0px auto;
+}
+
+.menu-box ul li span.i-bus{
+	background: url("../images/Group 4.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/Group 4.png*/) no-repeat;
+	/*// background-size:45px 50px;*/
+	background-position: center;
+}
+.menu-box ul li span.i-money{
+	background: url("../images/Group 6.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/Group 6.png*/) no-repeat;
+	/*// background-size:45px 50px;*/
+
+	background-position: center;
+}
+.menu-box ul li span.i-glass{
+	background: url("../images/Group 7.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/Group 7.png*/) no-repeat;
+	// background-size:45px 50px;
+
+	background-position: center;
+}
+.menu-box ul li span.i-msg{
+	background: url("../images/Group 3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/Group 3.png*/) no-repeat;
+	// background-size:45px 50px;
+
+	background-position: center;
+}
+.menu-box ul li span.i-art{
+	background: url("../images/guizhang.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/guizhang.png*/) no-repeat;
+	// background-size:45px 50px;
+	background-position: center;
+}
+.menu-box ul li span.i-msgs{
+	background: url("../images/guizhang1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/guizhang1.png*/) no-repeat;
+	// background-size:45px 50px;
+
+	background-position: center;
+}
+
+
+
+.menu-box ul li a{
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	/* // margin-top:15px; */
+}
+/* // #index .card{
+// 	font-size: 0;
+// 	width:25%;
+// 	padding:0;
+// 	margin:0;
+// 	padding-right: 10px;
+// }
+#index .card p{
+	color: #ccc;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+font-size: 12px;
+} */
+
+#index .card .date{
+	font-size: 12px;
+	color: #ccc;
+}
+#index .card h5{
+	font-size: 16px;
+	line-height: 28px;
+	overflow:hidden;
+	margin:5px 0;
+	font-weight: 200;
+}
+
+#index .work{
+	padding:60px 0;
+	background: url("../images/bak.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/bak.png*/) no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+
+}
+@media(max-width:769px){
+	#index .work{
+		padding:14px 0;
+		background: url("../images/work-m.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/work-m.png*/) no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding-top: 30px;
+
+	}
+	#index .work h3{
+		padding:0;
+		margin:0;
+		font-size: 20px;
+		font-weight: normal;
+	}
+}
+#index .work .title{
+	margin-bottom: 35px;
+	color: #fff!important;
+	padding-left: 30px;
+	position: relative;
+}
+
+.work-i{
+	display: inline-block;
+	width:22px;
+	height: 22px;
+	position: absolute;
+	top:20px;
+	left: 0px;
+	background: url("../images/work.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/work.png*/) no-repeat;
+	background-position: center;
+	background-size: 22px;
+}
+@media(max-width:996px){
+	.work-i{
+		display: inline-block;
+		width:22px;
+		height: 22px;
+		position: absolute;
+		top:0px;
+		left: 8px;
+		background: url("../images/work.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/work.png*/) no-repeat;
+		background-position: center;
+		background-size: 22px;
+		display: none;
+	}
+	#index .work .title {
+		padding-left: 8px;
+	}
+	a.all{
+		margin-top: 0;
+		float: right;
+		margin-right: 15px;
+		color: #666;
+		display: inline-block;
+		position: relative;
+		padding-right: 17px;
+		font-size: 12px;
+		font-weight: 100;
+	}
+}
+
+.notice-i{
+	display: inline-block;
+	width:22px;
+	height: 22px;
+	position: absolute;
+	top:38px;
+	left: 15px;
+	background: url("../images/notice.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/notice.png*/) no-repeat;
+	background-position: center;
+	background-size: 22px;
+}
+.notices-i{
+	display: inline-block;
+	width:22px;
+	height: 22px;
+	position: absolute;
+	top:40px;
+	left: 30px;
+	background: url("../images/notices.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/notices.png*/) no-repeat;
+	background-position: center;
+	background-size: 22px;
+}
+#index .work .title h3{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+}
+#index .card p{
+	font-size: 12px;
+	color: #ccc;
+	line-height: 20px;
+	/* color: rgba(255,255,255,0,65); */
+	 overflow: hidden;
+    text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+#index .card h5{
+	font-size: 16px;
+	line-height: 28px;
+	color:#fff;
+	height: 56px;
+}
+#index .card .date{
+	color: #ccc;
+}
+#index .work .title .en-title{
+	color: rgba(255,255,255,0.65);
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight:100;
+
+}
+#index .notice .title {
+	line-height: 44px;
+	margin:25px 0 19px;
+}
+
+#index .notice .title h3{
+	color: #0d478b;
+	font-size: 20px;
+	padding-left: 32px;
+	margin-top: 13px;
+	// margin-left: 20px;
+}
+@media(max-width:768px){
+	#index .title h3{
+	margin-left: 20px;
+	}
+}
+#index .title h3 .en-title{
+	color: #999;
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 15px;
+	font-weight: normal;
+
+}
+#index .bids li{
+	display: inline-block;
+	min-width:72px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+#index .bids {
+	display: inline-block;
+	margin-left: 25px;
+}
+@media(max-width:768px){
+	#index .bids{
+		display: block;
+		margin:0;
+		padding:0;
+		margin-left:0px;
+	}
+	#index .title h3{
+		margin-left: 0;
+	}
+
+}
+#index .bids li a{
+	color: #333;
+	display: inline-block;
+	width:100%;
+	text-decoration: none;
+
+}
+#index .bids li a:hover{
+	color: #fff;
+	background-color: #2495e4;
+}
+#index .bids li a.active{
+	color: #fff;
+	background: #2495e4;
+}
+@media(min-width:996px){
+	a.all{
+		color: #666;
+		display: inline-block;
+		position: relative;
+		padding-right: 17px;
+		font-size: 12px;
+		font-weight: 100;
+		margin-top: 17px;
+		float: right;
+		// margin-top: -10px;
+	}
+}
+
+a.all1{
+	float: right;
+	color: #666;
+	display: inline-block;
+	margin-top: 10px;
+	position: relative;
+	padding-right: 17px;
+	font-size: 12px;
+	font-weight: 100;
+	margin-top: -10px;
+
+}
+#index .intro{
+	position: relative;
+	padding-left: 150px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	height: 100px;
+	overflow: hidden;
+}
+@media(max-width:768px){
+	#index .intro{
+padding-left: 0px;
+width:100%;
+}
+}
+#index .block{
+	display: block;
+}
+#index .intro .squre{
+	border:1px solid #ccc;
+	width:80px;
+	height:80px;
+	text-align: center;
+	position: absolute;left: 20px;top: 0;
+}
+
+#index .intro .squre .date{
+	display: block;
+	color:#005db6;
+	font-size: 36px;
+	margin-top: 5px;
+}
+#index .intro .squre .time{
+	color: #999;
+	font-size: 12px;
+	margin-top: -4px;
+	display: block;
+}
+#index .intro h5{
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	margin:8px 0;
+}
+#index .intro p{
+	color: #999;
+	font-size: 12px;
+	line-height: 22px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+#index ul.bottom-ul{
+	margin:10px 0px;
+	padding:0;
+	width:49%;
+	padding-left: 20px;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+#index ul.bottom-ul li{
+	line-height: 25px;
+	margin:10px 0;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+
+
+}
+#index .right-box{
+	background: #eee;
+	padding:0 30px;
+}
+#index .intros{
+	border-bottom: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    height: 100px;
+    margin-top: -3px;
+    overflow: hidden;
+
+}
+#index .intros h5{
+	font-size: 14px;
+	margin-top: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+#index .intros p{
+	color: #999;
+    font-size: 12px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+
+}
+.ul-list{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+    width:100%;
+    margin-top: 20px;
+
+}
+.ul-list li{
+	height: 26px;
+	line-height: 26px;
+	margin:10px 0;
+	line-height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+    overflow: hidden;
+    font-weight:normal;
+}
+.ul-list li span{
+	display: inline-block;
+	margin-right: 15px;
+}
+a:hover{
+	text-decoration: none;
+}
+span.icon-ss{
+	display: inline-block;
+	width:13px;
+	height: 15px;
+	background: url("../images/arow.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arow.png*/) no-repeat;
+	position: absolute;top: 15px;
+	right: 0;
+}
+span.icon-ss-w{
+	display: inline-block;
+	width:9px;
+	height: 15px;
+	background: url("../images/arrow3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arrow3.png*/) no-repeat;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+span.icon-s{
+	display: inline-block;
+	width:15px;
+	height: 15px;
+	background: url("../images/arow2.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arow2.png*/) no-repeat;
+	background-size: 15px;
+	position: absolute;
+	top: 65px;
+	right: 0;
+	display: none;
+}
+.menu-box ul li.active div{
+	background: #3395e2;
+}
+.menu-box ul li.active .icon-s{
+	display: block;
+}
+#detail .content ul.nav-ul {
+	color: #999;
+}
+
+#detail .content ul li span.i-home{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	background: url("../images/home.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/home.png*/) no-repeat;
+	margin-top: 5px;
+    margin-left: 0px;
+    position: absolute;
+    left: -10px;
+}
+@media(max-width:768px){
+	#detail .content ul li span.i-home{
+		top: 10px;
+		left:0px;
+	}
+	#detail .content ul.nav-ul{
+		width:115%;
+		padding-left: 30px!important;
+	}
+
+	
+}
+#detail .content ul.regulation li{
+	padding-left: 70px;
+	text-align: right;
+	position: relative;
+}
+#detail .content ul.regulation li:hover{
+	background-color:  #3395e2;
+}
+#detail .content ul.regulation li:hover a{
+	color: #fff!important;
+}
+#detail .content ul.regulation li span.icon{
+	width:70px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left:15px;
+	height: 55px;
+}
+
+#detail .content ul.regulation li span.i-1{
+	width:70px;
+	display: inline-block;
+	height: 45px;
+	background: url("../images/1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/1.png*/) no-repeat;
+}
+
+#detail .content ul.regulation li span.i-2{
+	width:70px;
+	display: inline-block;
+	background: url("../images/2.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/2.png*/) no-repeat;
+}
+#detail .content ul.regulation li span.i-3{
+	width:70px;
+	display: inline-block;
+	background: url("../images/3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/3.png*/) no-repeat;
+}
+#detail .content ul.regulation li span.i-4{
+	width:70px;
+	display: inline-block;
+	background: url("../images/4.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/4.png*/) no-repeat;
+}
+#detail .content  li span.i-vx{
+	width:70px;
+	display: inline-block;
+	background: url("../images/wchat2.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/wchat2.png*/) no-repeat;
+}
+
+ul.regulation li{
+	border:1px solid #ccc;
+	height: 80px;
+	line-height: 22px;
+	width:100%;
+	padding:0 15px;
+	margin-bottom: 10px!important;
+}
+
+ul.regulation li.active{
+	background: #3395e2;
+	color: #fff;
+	border:1px solid #3395e2;
+}
+ul.regulation li.active a{
+	color: #fff;
+}
+ul.regulation li a{
+	font-size: 16px;
+	color: #333;
+
+}
+
+#detail .lists-box .lists-ul li a:hover{
+	text-decoration: none;
+}
+#detail .lists-box .lists-ul li a:hover{
+	color: #2495e4;
+}
+
+.p0{
+	padding-left: 0;
+}
+.foot-top ul.ul-1 li{
+		position: relative;
+		/* padding-left: 22px; */
+		font-size: 14px;
+		color: #eee;
+		font-weight: normal;
+		height: 40px;
+		/* overflow: hidden;
+		white-space: nowrap; */
+		text-overflow:ellipsis;
+
+	}
+.foot-top ul.ul-1 li:nth-child(odd){
+	width: 40%;
+}
+.foot-top ul li span.icon{
+	width:20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+.foot-top ul li span.i-email{
+	background: url("../images/email.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/email.png*/) no-repeat;
+	left: -2px;
+}
+.foot-top ul li span.i-phone{
+	background: url("../images/phone.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/phone.png*/) no-repeat;
+}
+.foot-top ul li span.i-add{
+	background: url("../images/add.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/add.png*/) no-repeat;
+}
+.foot-top ul li span.i-fax{
+	background: url("../images/fax.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/fax.png*/) no-repeat;
+}
+#index .work .title h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.header-xs{
+	height: 48px;
+	line-height: 48px;
+	box-shadow: 0px 2px 6px #ccc;
+	position: fixed;width:100%;
+	background: #fff;
+	top:0;
+	z-index: 999;
+}
+.menu-m{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-color: #2495e4;
+	text-align: center;
+	line-height: 32px; 
+	margin-top: 8px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.nav-xs{}
+.nav-xs ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.nav-xs ul li{
+	padding:20px 0;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+
+}
+.nav-xs ul li a{
+	color: #333;
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+}
+.nav-xs ul li a span.icon-m{
+	display: inline-block;
+	width: 33px;
+	height: 35px;
+	margin-bottom: 8px;
+	// margin:8px auto;
+	// position: absolute;
+}
+.nav-xs ul li a span.a{
+	background: url("../images/a.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/a.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.b{
+	background: url("../images/b.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/b.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.c{
+	background: url("../images/c.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/c.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.d{
+	background: url("../images/d.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/d.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.e{
+	background: url("../images/e.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/e.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.f{
+	background: url("../images/f.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/f.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.g{
+	background: url("../images/g.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/g.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.h{
+	background: url("../images/h.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/h.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.word{
+	display: block;
+}
+@media(max-width:768px){
+	.work-m-top{
+		margin-top: -22px;
+		border-bottom: 1px solid #ccc;
+		padding:0 10px;
+		padding-bottom: 21px;
+	}
+
+	.work-m-bottom{
+		margin:0;
+		padding: 0;
+		padding:32px 0;
+	}
+	.work-m-bottom li{
+		line-height: 36px;
+		font-size: 14px;
+		font-weight: normal;
+		width:100%;
+		// overflow: hidden;
+		// white-space: nowrap;
+		text-overflow:ellipsis;
+	}
+	#index .card .date{
+		font-size: 14px;
+	}
+	#index .card h5{
+		font-size: 16px;
+		/* line-height: 38px; */
+	}
+}
+.lists-ul .ma-date{
+	display: inline-block;
+	position: absolute;
+}
+.linkus ul li{
+	position: relative;
+	padding-left: 35px;
+	margin:10px 0;
+}
+.linkus ul li span.icon{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	position: absolute;
+	top:1px;
+	left: 0;
+}
+.i-phone{
+	background:url("../images/phone1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/phone1.png*/) no-repeat;
+	background-position: center;
+}
+.i-fax{
+	background:url("../images/fax1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/fax1.png*/) no-repeat;
+	background-position: center;
+}
+.i-email{
+	background:url("../images/mail1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/mail1.png*/) no-repeat;
+	background-position: center;
+}
+.i-add{
+	background:url("../images/addr1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/addr1.png*/) no-repeat;
+	background-position: center;
+}
+
+#service_map{
+	width:289px;
+}
+@media(max-width:768px){
+	#service_map{
+		width:155px;
+	}
+}
+
+.cir{
+	display: inline-block;
+	width:2px;
+	height: 2px;
+	border-radius: 50%;
+	background: #333;
+}
+// ul.regulation li{
+// 	position: relative;
+// }
+// .re-left-ul{
+// 	position: absolute;
+// 	top: 79px;
+// 	width:100%;
+// 	left: 0;
+// }
+// ul.regulation li .re-left-ul li{
+// 	margin:0!important;
+// 	padding:0!important;
+// 	height: 62px!important;
+// }
+// ul.regulation li .re-left-ul li a{
+// 	color: #333!important;
+// 	width:100%!important;
+// 	display: inline-block;
+// 	margin:0!important;
+// 	padding:0!important;
+// 	padding-right: 40px!important;
+// 	height: 62px!important;
+// 	line-height: 62px!important;
+// }
+// ul.regulation li .re-left-ul li{
+// 	margin-bottom: 0!important;
+// 	height: 68px;
+// 	border-top: none!important;
+// 	line-height: 68px;
+// }
+// #detail .content ul.regulation li .re-left-ul li:hover{
+// 	background: #fff;
+// 	color: #333;
+// }
+// #detail .content ul.regulation li .re-left-ul li a:hover{
+// 	color: #2495e4!important;
+// 	background: #fff;
+// }
+
+ul{
+	padding:0;
+}
+.regulation-n{
+}
+.regulation-n li a{
+	display: block;
+	float: none;
+
+}
+.regulation-n li .re-left-ul{
+	margin-top: 0;
+	display: block;
+	float: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+#detail .content .list-box ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#detail .content .list-box ul.regulations li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.regulations li{
+	list-style-type: none;
+	// padding-left: 70px;
+	text-align: right;
+	position: relative;
+	border:1px solid #ccc;
+	// line-height: 80px;
+	margin-bottom: 10px;
+}
+.regulations li .a-box{
+    // height: 80px;
+    height: auto;
+    // display: flex;
+    display: block;
+ 	 text-align: right;
+ 	 justify-content:flex-end;
+    align-items: center;
+    margin-left: 15px;
+    text-align: right!important;
+    line-height: 22px;
+}
+.regulations li a{
+	display: inline-block;
+	padding:0 15px;
+	width:100%;
+	height: 100%;
+	padding-left: 60px;
+	height: 80px;
+}
+.regulations li ul.res-left-ul{
+	width:100%;
+	display: none;
+
+}
+.regulations li ul.res-left-ul li{
+	height: 62px;	
+	margin-bottom: 0;
+	border: none;
+	border-top: 1px solid #ccc;
+	line-height: 62px;
+	padding-right: 25px!important;
+}
+// 
+.regulations li ul.res-left-ul li a{
+	display: inline-block;
+	width:100%;
+	padding-right: 40px;
+}
+.regulations li a{
+	color: #333;
+	font-size: 14px;
+}
+.regulations li span.icon{
+	width:70px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	left:10px;
+	height: 55px;
+}
+
+.regulations li span.i-1{
+	width:70px;
+	display: inline-block;
+	height: 45px;
+	background: url("../images/1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/1.png*/) no-repeat;
+	top:35px;
+}
+
+.regulations li span.i-5{
+	width:70px;
+	display: inline-block;
+	height: 45px;
+	background: url("../images/1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/1.png*/) no-repeat;
+	top:35px;
+}
+.regulations li :hover {
+	background: #2495e4;
+}
+.regulations li a:hover {
+	color: #fff;
+}
+
+.regulations li:hover .res-left-ul li{
+	background: #fff!important;
+}
+.regulations li a:hover .res-left-ul li a{
+	color: #333!important;
+}
+.res-left-ul li.r-son-li:hover {
+	background: #fff!important;
+	color: #2495e4!important;
+}
+
+.regulations li span.i-2{
+	width:70px;
+	display: inline-block;
+	background: url("../images/2.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/2.png*/) no-repeat;
+	top:25px;
+
+}
+.regulations li span.i-3{
+	width:70px;
+	display: inline-block;
+	background: url("../images/3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/3.png*/) no-repeat;
+	top:25px;
+
+}
+.regulations li span.i-4{
+	width:70px;
+	display: inline-block;
+	background: url("../images/4.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/4.png*/) no-repeat;
+	top:25px;
+}
+.res-left-ul li a:hover{
+	background: #fff!important;
+	color: #2495e4;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: none;
+}
+.pic-row{
+	margin-bottom: 15px;
+}
+.pic-row img{
+	width: 101%;
+	overflow-x: hidden;
+	cursor: pointer;
+	height: 100%;
+	object-fit: cover;
+}
+@media(max-width:768px){
+	.pic-row img{
+		margin:15px 0;
+	}
+}
+.pv{
+	display: inline-block;
+	margin-left: 30px;
+}
+.pv-num{
+	font-size: 14px;
+	color: #333;
+}
+.regulations li.active a{
+	// background: #2495e4;
+	// color: #fff;
+	// font-weight: bold;
+	// border:1px solid #2495e4;
+}
+.active-li{
+	background: #2495e4;
+}
+.active-a{
+	color: #fff!important;
+	font-weight: bold;
+	background: #2495e4;
+}
+.blue-clo{
+	display: inline-block;
+	width:18px;
+	height: 18px;
+	background: url("../images/blu-clo.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/blu-clo.png*/) no-repeat;
+	background-position: center;
+	background-size: 10px;
+	background-color: #2495e4;
+	position: absolute;
+	top: -9px;
+	right: -9px;
+	border-radius: 100%;
+}
+.foot_map{
+	background: url("../images/map.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/map.png*/) no-repeat;
+	background-size: cover;
+	height: 289px;
+	background-position: right;
+}
+@media(max-width:768px){
+	.foot_map{
+		background: url("../images/map.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/map.png*/) no-repeat;
+		background-size: cover;
+		height: 156px;
+		background-position: right;
+	}
+}
+.p-box{
+	height: 40px;
+	overflow-x: hidden;
+	position: relative;
+	width:90%;
+	float: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left:15px;
+	margin-right:15px;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.8));
+}
+.p-mask{
+	position: absolute;
+	top:0;
+	height: 0;
+	width:100%;
+	height: 100%;
+	// background: -webkit-linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.8));
+
+}
+@media(max-width:768px){
+	.p-box{
+		bottom: 15px;
+		width:93%;
+	}
+	.row{
+		margin-bottom: -15px;
+	}
+}
+.p-left{
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	display: flex;
+	align-items:center;
+	height: 100%;
+	padding:0 10px;
+	opacity: 0.6;
+
+}
+.p-right{
+	float: right;
+	color: #fff;
+	font-size: 14px;
+	display: flex;
+	align-items:center;
+	height: 100%;
+	padding:10px;
+	opacity: 0.6;
+
+}
+.res-left-ul li a{
+	height: 100%;
+}
+.pic-row img:hover .p-left{
+		opacity: 1;
+}
+.pgwSlideshow .ps-current > ul  > li img{
+}
+.pgwSlideshow .ps-current .ps-prev,.pgwSlideshow .ps-current .ps-next,.pgwSlideshowLight .ps-caption{
+	z-index: 998!important;
+}
+/*.pgwSlideshow .ps-list .ps-prev,.pgwSlideshow .ps-list .ps-next{
+	display: block!important;
+}*/
+.pgwSlideshow .ps-current > ul  > li{
+	z-index: 0!important;
+}
+.sx-h2{
+
+}
+@media(max-width:768px){
+	.pv{
+		display: block;
+		margin-left:0;
+	}
+	.foot-bottom{
+		padding:15px 0;
+	}
+	.foot-img{
+		margin:0px 0 15px;
+	}
+
+}
+.pv-num{
+		margin:0 8px;
+		display: inline-block;
+	}
+
+.fold-menu .fold-menu-tit a {
+    /* color: #fff!important; */
+    position: relative;
+    font-size: 20px;
+    font-weight: 200;
+    display: inline-block;
+    border-bottom: 3px solid #2495E6;
+    padding-bottom: -17px;
+    color: #333;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+@media (max-width: 768px)
+.fold-menu .fold-menu-tit {
+    height: 62px;
+    line-height: 78px;
+    text-overflow: ellipsis;
+    border-bottom: 3px #2495e4;
+     background: #fff; 
+    width: 112%;
+    margin-left: -10px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    /* float: left; */
+}
+a.wlink{
+	position: relative;
+	padding-left: 28px;
+	width: 115px!important;
+	background: #00b702!important;
+}
+a.wlink:before{
+	position: absolute;
+	top: 8px;
+	left: 17px;
+	width: 25px;
+	height: 20px;
+	display: inline-block;
+	content: "";
+	background-position: center;
+	background: url("../images/wlink.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/wlink.png*/) no-repeat;
+}
+
+
+.codebox{
+}
+.codebox-h2{
+	font-size: 20px;
+	display: inline-block;
+	padding:32px 0;
+	border-bottom: 1px solid #e5e5e5;
+	width: 100%;
+	margin-bottom: 33px;
+}
+.codebox .mian p{
+	font-size: 12px;
+	position: absolute;
+
+}
+.codebox .mian  div{
+	float: left;
+	margin-left: 120px;
+	
+}
+
+.codebox .wp-caption-text {
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.codebox .mian  img{
+
+}
+@media (min-width:769px){
+	
+	.c-row{
+		position: relative;
+		padding-left: 80px;
+	}
+	.c-row .c-h4{
+		position: absolute;
+		left: 0;
+		top: 0px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.c-imgbox{
+		width: 198px;
+		margin:0 30px;
+		display: inline-block;
+	}
+	.c-imgbox span{
+		display: inline-block;
+		width: 198px;
+		text-align: center;
+		margin:15px 0 40px;
+	}
+	.c-imgbox img {
+		width:198px;
+		height: 198px;
+		-webkit-object-fit:cover;
+		border:1px solid #f1f1f1;
+	}
+	
+}
+@media (max-width:768px){
+	.c-row{
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.c-row .c-h4{
+		margin:15px 0;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.c-imgbox{
+		width: 100%;
+		text-align: center;
+		margin:30px 0 0;
+	}
+	.c-imgbox span{
+		display: block;
+		width: 198px;
+		width: 100%;
+		text-align: center;
+		margin:15px 0 40px;
+	}
+	.c-imgbox img {
+		width:198px;
+		height: 198px;
+		-webkit-object-fit:cover;
+		border:1px solid #f1f1f1;
+	}
+	
+	.wlink-m{
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		position: fixed;
+		bottom: 15px;
+		right: 15px;
+		background: url("../images/wlink1.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/wlink1.png*/) no-repeat;
+		background-position: center;
+		background-color: #00b702!important;
+
+	}
+	.wqq-m{
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		position: fixed;
+		bottom: 15px;
+		right: 57px;
+		background: url("../images/wqq.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/wqq.png*/) no-repeat;
+		background-position: center;
+		background-color: #1f6fb0!important;
+
+	}
+}
+
+@media(max-width:768px){
+	.w20{
+		margin-right:10px;
+	}
+	.foo-ab{
+		position: absolute;
+	}
+	.foo-box{
+		 height: 50px!important;
+	}
+}
+.photo-box{
+	height: 170px;
+	margin-bottom: 20px;
+}

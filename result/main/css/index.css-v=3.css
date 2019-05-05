@@ -1,0 +1,299 @@
+html{
+	overflow-x: hidden;
+}
+.addvertise{
+	position: fixed;
+	right: 30px;
+	bottom:20px;
+	z-index: 10000;
+}
+	.foot-top ul.ul-1 li{
+		position: relative;
+		/* padding-left: 30px; */
+		font-size: 14px;
+		color: #eee;
+		width:60%;
+		font-weight: normal;
+	}
+	
+.foot-top{
+			padding: 10px;
+		}
+
+	@media(max-width:767px){
+		.foot-top ul.ul-1{
+			margin-bottom: -20px;
+		}
+		.foot-top ul.ul-1 li{
+			padding-left: 30px;
+		}
+		.foot-top{
+			padding-bottom: 40px;
+		}
+	}
+
+	.foot-top ul li span.icon{
+		width:20px;
+		height: 20px;
+		display: inline-block;
+		position: absolute;
+		left: 0px;
+		top: 4px;
+	}
+.foot-top ul li span.i-email{
+	background: url("../images/email.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/email.png*/) no-repeat;
+	left: 0px;
+}
+.foot-top ul li span.i-phone{
+	background: url("../images/phone.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/phone.png*/) no-repeat;
+}
+.foot-top ul li span.i-add{
+	background: url("../images/add.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/add.png*/) no-repeat;
+}
+.foot-top ul li span.i-fax{
+	background: url("../images/fax.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/fax.png*/) no-repeat;
+}
+.head-bottom ul.par-ul li {
+	position: relative;
+}
+.head-bottom ul.par-ul li ul.son-ul{
+	position: absolute;
+	top: 50px;
+	padding:0;
+	display: none;
+	z-index: -1;
+	// left:-30px;
+	// width:180px;
+}
+.head-bottom ul.par-ul li ul.son-ul li{
+	height: 40px;
+	display: block;
+	// min-width:176px;
+	box-sizing: content-box;
+	// min-width:118px;
+	line-height: 40px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	background-color: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+.head-bottom ul.par-ul li ul.son-ul{
+	box-shadow: 0 2px 16px 0 rgba(0,0,0,0.16);
+}
+@media(min-width:1200px){
+		body{
+			padding-top: 130px;
+		}
+	}
+	@media(max-width:768px){
+		body{
+			padding-top: 19px;
+		}
+	}
+}
+.header{
+	position: fixed;
+	top:0;
+	left: 0;
+	background-color: #fff;
+	width:100%;
+	z-index: 100;
+	box-shadow: 0 2px 16px 0 rgba(0,0,0,0.16);
+}
+.i_box{
+	display: none;
+}
+
+.notice{
+	height: 375px;
+	// padding-top:10px;
+}
+.page-ul li{
+	border:1px solid #666;
+	text-align: center;
+	padding:0 10px;
+	border-radius:4px;
+}
+.page-ul li a{
+	color: #666;
+}
+.page-ul li.gray a{
+	color: #999;
+}
+.page-ul li.gray {
+	border:1px solid  #999;
+}
+.page-ul li.noborder{
+	border:none;
+}
+.page-ul li.active{
+	background-color: #0051ae;
+	border:1px solid #0051ae;
+}
+.page-ul li.active a{
+	color: #fff;
+}
+.bottom-ul li{
+	position: relative;
+	padding-left: 20px;
+}
+.circle{
+	display: inline-block;
+	width:5px;
+	height: 5px;
+	background-color: #333;
+	border-radius: 100%;
+	margin-right: 10px;
+	position: absolute;
+	top:9px;
+	left: 0;
+}
+.mask{
+	position: absolute;
+	width:100%;
+	height:200px;
+	z-index: 0;
+	background-color: rgba(0,0,0,0.26);
+}
+#detail .content .list-box ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#detail .content .list-box ul.regulation li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#detail .content .list-box ul.regulation li a{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+}
+#detail .content .list-box ul.regulation li a:hover{
+	color:#3395e2;
+}
+#detail .content .list-box ul.regulation li.active a:hover{
+	color:#FFF;
+}
+.article span:nth-of-type(1){
+	font-weight: bold;
+}
+.article h2{
+	font-weight: bold!important;
+}
+.article h2 span{
+	font-weight: normal!important;
+}
+.search-box-m{
+	background: #fff;
+	height: 48px;
+	position: absolute;
+	top:0;
+	left: 0;
+	width:100%;
+	padding:0 15px;
+	overflow-x: hidden;
+	display: none;
+	z-index:1001;
+}
+@media(min-width:768px){
+	.search-box-m .search-inp{
+		width:94%!important;
+	}
+	.search-box-m a{
+		width:5%!important;
+	}
+}
+.search-box-m .search-inp{
+	height: 32px;
+	margin-top: 8px;
+	border:1px solid #ccc;
+	float: left;
+	width:85%;
+	padding:0;
+	box-shadow: none;
+	line-height: 32px;
+	padding-left: 30px;
+	font-size: 12px;
+	color: #999;
+	// margin-top: -10px;
+	padding-top: -10px;
+}
+.search-box-m input[placeholder]{
+	color: #999;
+}
+.search-box-m .bigmirro{
+	display: inline-block;
+	width:24px;
+	height: 24px;
+	position: absolute;
+	left: 20px;
+	top: 12px;
+	background: url("../images/search-m.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/search-m.png*/) no-repeat;
+	background-position: center;
+}
+.search-box-m a{
+	display: inline-block;
+	float: right;
+	color: #2495e4;
+	font-size: 14px;
+	width:10%;
+	text-align: right;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+.menu-box div{
+	position: relative;
+}
+.menu-box div a{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top:-50px;
+	left: 0;
+	line-height: 145px;
+	cursor: pointer;
+}
+span.icon-s {
+	top:65px;
+	right:15px;
+}
+.res-left-ul li a.active{
+	font-size: 16px;
+	color: #2495e4;
+	font-weight: bold;
+}
+table{
+	border:1px solid #ccc;
+	width:100%;
+	overflow-x:auto;
+	/*margin-top: -60px;*/
+}
+table tr td{
+	border:1px solid #ccc;
+	padding:0 10px;
+	font-size: 13px;
+}
+@media(max-width:768px){
+	table{
+		width:800px!important;
+	overflow-x: auto;
+	}
+	
+}

@@ -1,0 +1,64 @@
+/*
+Theme Name: equip-new
+*/
+#detail .content ul.regulation li {
+
+    overflow: hidden;
+}
+
+.aligncenter{
+    display: block;
+    margin: 0px auto;
+    height: auto;
+}
+.content-box .article .main img {
+    width: auto;
+    /* text-align: center; */
+}
+
+.head-bottom ul.par-ul li{
+    display: inline-block;
+
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    min-width:8.24%;
+}
+.regulations li a {
+    color: #333;
+    font-size: 16px;
+}
+.banner h3 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 85px 0 0px;
+    margin: 0;
+    position: relative;
+}
+.content-box ul li a {
+    color: #999;
+    font-size: 14px;
+}
+@media(max-width:768px){
+    #detail .content ul li span.i-home{
+        top: 0px;
+        left:0px;
+    }
+    #detail .content ul.nav-ul{
+    // padding-left: 15px!important;
+    }
+}
+@media (max-width: 767px){
+    .mask {
+        height: 100px;
+    }
+    .banner-lists {
+        height: 100px;
+    }
+}
+.nav-xs ul li:last-child{
+    /* border-right: 1px solid #ccc; */
+    /* border-left: 1px solid #ccc; */
+}

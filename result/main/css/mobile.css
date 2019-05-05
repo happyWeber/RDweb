@@ -1,0 +1,530 @@
+body{
+	padding-top: 130px;
+}
+
+	.page-ul{
+		text-align: right;
+	}
+
+@media(max-width:1200px){
+	body{
+	padding-top: 48px;
+}
+}
+.header-xs{
+	height: 48px;
+	line-height: 48px;
+	box-shadow: 0px 2px 6px #ccc;
+	position: fixed;width:100%;
+	background: #fff;
+	top:0;
+	z-index: 999;
+}
+.menu-m{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-color: #2495e4;
+	text-align: center;
+	line-height: 32px; 
+	margin-top: 8px;
+	position: absolute;
+    right: 15px;
+    z-index: 1000;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.nav-xs{}
+.nav-xs ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.nav-xs ul li{
+	padding:20px 0;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+
+}
+.nav-xs ul li a{
+	color: #333;
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+}
+.nav-xs ul li a span.icon-m{
+	display: inline-block;
+	width: 33px;
+	height: 35px;
+	margin-bottom: 8px;
+	// margin:8px auto;
+	// position: absolute;
+}
+.nav-xs ul li a span.a{
+	background: url("../images/a.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/a.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.b{
+	background: url("../images/b.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/b.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.c{
+	background: url("../images/c.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/c.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.d{
+	background: url("../images/d.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/d.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.e{
+	background: url("../images/e.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/e.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.f{
+	background: url("../images/f.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/f.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.g{
+	background: url("../images/g.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/g.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.nav-xs ul li a span.h{
+	background: url("../images/h.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/h.png*/) no-repeat;
+	background-size: ;
+	background-position: center;
+}
+.word{
+	display: block;
+}
+@media(max-width:768px){
+	.work-m-top{
+		margin-top: -22px;
+		border-bottom: 1px solid #ccc;
+		padding:0 10px;
+		padding-bottom: 10px;
+	}
+
+	.work-m-bottom{
+		margin:0;
+		padding: 0;
+		padding:20px 0;
+	}
+	.work-m-bottom li{
+		line-height: 36px;
+		font-size: 14px;
+		font-weight: normal;
+		width:100%;
+		// overflow: hidden;
+		// white-space: nowrap;
+		text-overflow:ellipsis;
+	}
+	#index .card .date{
+		font-size: 14px;
+	}
+	#index .card h5{
+		font-size: 16px;
+		line-height: 38px;
+	}
+}
+@media(max-width:768px){
+	#detail .content ul.nav-ul{
+		height: 48px;
+		line-height: 48px;
+		background:#eee;
+		margin-left: -30px;
+		margin-right: -25px;
+		border:none;
+		margin-top: -30px;
+		padding-left: 30px!important;
+		overflow-x: hidden;
+	}
+	.content-box ul.nav-ul li{
+		margin-left: 15px;
+	}
+	.fold-menu{
+		padding:0;
+		margin:0;
+		font-size: 0;
+		margin-top: -10px;
+		margin-bottom: 20px;
+	}
+	// .fold-menu  .fold-menu-tit{
+	// 	height: 62px;
+	// 	line-height: 62px;
+	// 	// overflow: hidden;
+	// 	text-overflow:ellipsis;
+	// 	background: #2495e4;
+	// 	width:112%;
+	// 	margin-left: -15px;
+	// 	padding:0 10px;
+	// 	float: left;
+		
+	// }
+	// .fold-menu  .fold-menu-tit a{
+	// 	color: #fff!important;
+	// 	position: relative;
+	// 	font-size:14px;
+	// }
+	.fold-menu  .fold-menu-tit a span{
+		display: inline-block;
+		width:15px;
+		height: 15px;
+		margin-left: 20px;
+		top: 4px;
+		position: absolute;
+	}
+	.fold-menu .fold-menu-tit a span.hezhe{
+		background: url("../images/arrow3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arrow3.png*/) no-repeat;
+	}
+	.fold-menu  .fold-menu-tit a span.kaizhe{
+		background: url("../images/arrow4.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arrow4.png*/) no-repeat;
+	}
+	.fold-menu  .fold-list{
+		display: table;
+	}
+	.fold-menu  .fold-list  li{
+		height: auto;
+		// display: block;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+		background:#fff;
+		border-bottom: 1px solid #e5e5e5;
+		line-height: 62px;
+		padding:0 10px;
+		float: left;
+		width: 109%;
+		margin:0 -15px;
+		height: 62px;
+		display:inline-block;
+		vertical-align: middle;
+	}
+	.fold-menu .fold-list li a{
+		color: #666!important;
+		font-size: 14px;
+
+	}
+	.fold-menu .fold-list .page-m li{
+		border:1px solid #666;
+		text-align: center;
+		padding:0 10px;
+		border-radius:4px;
+		background: #fff;
+	}
+	.fold-menu .fold-list .page-m li.gray a{
+		color: #999;
+	}
+	.fold-menu .fold-list .page-m li.gray {
+		border:1px solid  #999;
+	}
+	.fold-menu .fold-list .page-m li.noborder{
+		border:none;
+	}
+	.fold-menu .fold-list .page-m li.active{
+		background-color: #0051ae;
+		border:1px solid #0051ae;
+		color: #fff;
+	}
+	.fold-menu .page-m{
+		text-align: center;
+		clear: both;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		float: none;float: left;
+		font-size: 14px;
+		width: 80%;
+		margin-left:10%;
+	}
+	.fold-menu .page-m li{
+		display: inline-block;
+		border:1px solid #666;
+		padding:2px 6px;
+		border-radius: 5px;
+		min-width: 40px;
+		background-color: #fff;
+	}
+	.fold-menu .page-m li.gray{
+		border:1px solid #ccc;
+		
+	}
+	.fold-menu .page-m li.active{
+		border:1px solid #ccc;
+		background-color: #0051ae;
+		border:1px solid #0051ae;
+		
+	}
+	.fold-menu .page-m li.active a{
+		color: #fff;
+	}
+	.fold-menu .page-m li.gray a{
+		color: #ccc;
+	}
+	.fold-menu .page-m li a{
+		color: #666;
+	}
+
+
+
+
+	.lists-box .lists-ul .page-m{
+		text-align: center;
+		clear: both;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		float: none;float: left;
+		font-size: 14px;
+		width: 80%;
+		margin-left:10%;
+	}
+	.lists-box .lists-ul .page-m li{
+		display: inline-block;
+		border:1px solid #ccc;
+		padding:2px 6px;
+		border-radius: 5px;
+		min-width: 40px;
+		background-color: #fff;
+
+	}
+	.lists-box .lists-ul .page-m li.gray{
+		border:1px solid #ccc;
+		
+	}
+	.lists-box .lists-ul .page-m li.active{
+		border:1px solid #ccc;
+		background-color: #0051ae;
+		border:1px solid #0051ae;
+		
+	}
+	.lists-box .lists-ul .page-m li.active a{
+		color: #fff;
+	}
+	.lists-box .lists-ul .page-m li.gray a{
+		color: #ccc;
+	}
+	.lists-box .lists-ul .page-m li a{
+		color: #333;
+	}
+	.usual{
+		background-color: #eee;
+		margin-left: -15px;
+		margin-right: -15px;
+		padding:0 15px;
+		margin-top: 20px;
+		margin-bottom: -30px;
+
+	}
+	.usual h4{
+		margin:35px 0 25px;
+		color: #0051ae;
+		font-size: 16px;
+		font-weight: bold;
+
+
+	}
+	.usual ul{
+		paddding:0;
+		margin-left: -40px;
+	}
+	.usual ul li{
+		font-size: 14px;
+		line-height: 20px;
+		height: 40px;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	.bottom-ul-m{
+		padding:0;
+		margin:0;
+		margin-bottom: 30px;
+		clear: both;
+	}
+	.bottom-ul-m li{
+		padding:0;
+		margin:0;
+		line-height: 24px;
+		font-size: 14px;
+		height: 25px;
+		margin:25px 0;
+	}
+	
+	.btn-box{
+		overflow: hidden;
+	}
+}
+@media(max-width:1200px){
+	.search-m{
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		border:1px solid #ccc;
+		text-align: center;
+		line-height: 28px;
+		margin-top: 8px;
+		margin-right: 15px;
+		position: absolute;
+		right: 45px;
+		z-index: 1000;
+	}
+	.menu-box-m{
+		position:fixed;
+		width:205px;
+		background: #2495e4;
+		right: 0;
+		top:0px;
+		z-index: 999;
+		text-align: left;
+		height: 100%;
+		display: none;
+		padding:0;
+	}
+	.menu-m-list{
+		list-style-type: none;
+		margin-top: 40px;
+		// margin-left: -40px;
+		// padding:0;
+		// width:100%;
+		// overflow: hidden;
+		// white-space: nowrap;
+		// text-overflow:ellipsis;
+	}
+	.menu-m-list li {
+		position: relative;
+		width:100%;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+		overflow: hidden;
+	}
+	.menu-m-list li a{
+		display: inline-block;
+		padding-right: 22px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 30px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.menu-m-list li  .son-ul-m{
+		list-style-type: none;
+		display: none;
+		padding-left: 0;
+
+	}
+	.menu-m-list li  .son-ul-m li a{
+		font-size: 12px;
+		color: #ccc;
+	}
+	.xiala{
+		position: absolute;
+		display: inline-block;
+		width:20px;
+		height: 20px;
+		top: 13px;
+		background: url("../images/arrow3.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/arrow3.png*/) no-repeat;
+	}
+	.heshang{
+		position: absolute;
+		display: inline-block;
+		width:20px;
+		height: 20px;
+		top: 18px;
+		background: url("../images/heshang.png"/*tpa=https://sysb.ruc.edu.cn/wp-content/themes/equip/images/heshang.png*/) no-repeat;
+	}
+	
+}
+#man-ul{
+		display: block;
+		float: right;
+	}
+	#man-ul li{
+		margin-right: 10px;
+	}
+@media(max-width:768px){
+	#man-ul{
+		margin-top: 10px;
+		height: 30px;
+		display: block;
+		float: left;
+    width: 100%;
+    font-size: 0;
+    padding:0;
+    border-bottom: 1px solid #e5e5e5;
+	}
+	#man-ul li{
+		height: 30px;
+		line-height: 30px;
+		width:25%;
+		font-size: 14px;
+		margin:0;
+		padding: 0;
+		margin-right: 0;
+	}
+	#man-ul li a{
+		margin-right: 0;
+		text-align: center;
+		display: inline-block;
+		width:100%;
+		height: 100%;
+	}
+	#man-ul li a.active{
+		background-color: #2495e4;
+		color: #fff;
+
+	}
+	.page-div{
+		text-align: center;
+	}
+	.page-ul{
+		padding:0;
+		text-align: center;
+		
+	}
+	}
+	.page-ul li{
+		// margin:0;
+		margin-left: 10px;
+		margin-top:20px;
+
+	}
+	.page-ul li a{
+		// color: #333!important;
+	}
+	.page-ul li a.active{
+		color: #fff!important;
+	}
+	.content-box .page-ul li a{
+		color: #666;
+	}
+	.content-box .page-ul li.active a{
+		color: #fff;
+	}
+
+}
+
+// pc
+.manage-ul li a{
+	color: #333;
+	font-size: 14px;
+	display: inline-block;
+	margin-left:20px;
+}
+
+.man-ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
