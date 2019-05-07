@@ -2,8 +2,389 @@
 <html>
 <?php $this->load->view("html/static.html")?>
 <body>
-<?php $this->load->view("html/header.html")?>
+<?php $this->load->view("html/pc-menus.html")?>
+
+<?php $this->load->view("html/mobile-menus.html")?>
+
+<div class="banner-index">
+</div>
+
+<div id="index" class="index">
+    <!-- 移动端公告 -->
+    <div class="nav-xs visible-xs">
+        <ul>
+            <li class="col-xs-6">
+
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/goods.png">
+                <span class="word">货物服务类采购</span>
+            </li>
+            <li class="col-xs-6">
+
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/project.png">
+                <span class="word">工程修缮类采购</span>
+            </li>
+            <li class="col-xs-6">
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/bid.png">
+                <span class="word">电子招标系统</span>
+            </li>
+            <li class="col-xs-6">
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/bid.png">
+                <span class="word">规章制度</span>
+            </li>
+            <li class="col-xs-6">
+
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/bid.png">
+                <span class="word">供应商系统</span>
+
+            </li>
+            <!-- <li class="col-xs-6">
+                <a href="/?cat=32">
+                    <span class="icon-m g"></span>
+                    <span class="word">最新公告</span>
+                </a>
+            </li> -->
+            <li class="col-xs-6">
+
+                <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/blue/expert.png">
+                <span class="word">专家系统</span>
+
+            </li>
+        </ul>
+    </div>
+
+    <div class="container mob-content">
+              <!--Pc端系统-->
+        <div class="menu-box hidden-xs">
+            <ul>
+                <li>
+
+                    <div>
+                        <!--<span class="icon i-bus"></span>-->
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/goods.png">
+                        <a href="http://ep.ruc.edu.cn/" tppabs="">货物服务类采购系统<span class="icon-s"></span></a>
+                    </div>
+
+                </li>
+                <li>
+
+                    <div>
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/project.png">
+                        <a href="" tppabs="http://sbgl.ruc.edu.cn:8080/zcgl">工程为修缮类采购系统<span class="icon-s"></span></a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/bid.png">
+                        <a href="http://chemcg.ruc.edu.cn/ruc/www/">电子招投标系统<span class="icon-s"></span></a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/expert.png">
+                        <a href="http://labsafe.ruc.edu.cn/">专家系统<span class="icon-s"></span></a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/agent.png">
+                        <a href="http://lab.ruc.edu.cn/">供应商系统<span class="icon-s"></span></a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://rda.easy2doc.com/wp-content/themes/equip/images/icon/paper.png">
+                        <a href="https://sysb.ruc.edu.cn/archives/category/gzzd/zcglxgzd">合同管理系统<span class="icon-s"></span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="notice">
+            <div class="row mob-left" style="margin-right:0px;margin-top: 0px;">
+                <div class="col-md-8  col-xs-12 hotnotice-bg">
+                    <div class="title">
+                        <span class="icon notice-i"></span>
+                        <h3 style="display: inline-block;">最新公告<span class="en-title">ANNONCEMENT</span></h3>
+
+                        <a href="#" style="margin-top:4px;" class="all">全部公告 <span class="icon-ss"></span></a>
+                    </div>
+                    <div class="moren">
+                        <div class="intro">
+                            <div class="squre hidden-xs">
+							<span class="date"><?=date('D',time($annon['create_date']))?></span><span class="time"><?=date('Y-M',time($annon['create_date']))?></span>
+                            </div>
+                            <h5><a href="<?=base_url('news/detail')?>?id=<?=$annon['id']?>" style="color:#333;"><?=$annon['title']?></a>
+                            </h5>
+                            <p><?=$annon['content']?>...</p>
+                        </div>
+                        <ul class="bottom-ul left">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>
+                        </ul>
+                        <ul class="bottom-ul right">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>
+
+                        </ul>
+                    </div>
+                    <div class="i_box i_1 ">
+                        <div class="intro block">
+                            <div class="squre">
+							<span class="date"><?=date('D',time($annon['create_date']))?></span><span class="time"><?=date('Y-M',time($annon['create_date']))?></span>
+                            </div>
+                            <h5><a href="<?=base_url('news/detail')?>?id=<?=$annon['id']?>" style="color:#333;"><?=$annon['title']?></a>
+                            </h5>
+                            <p><?=$annon['content']?>...</p>
+                        </div>
+                        <ul class="bottom-ul left" style="margin-left: 20px;">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>
+
+                        </ul>
+                        <ul class="bottom-ul right">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>
+
+                        </ul>
+                    </div>
+                    <div class="i_box i_2 ">
+                        <div class="intro">
+                            <div class="squre">
+								<span class="date"><?=date('D',time($annon['create_date']))?></span><span class="time"><?=date('Y-M',time($annon['create_date']))?></span>
+                            </div>
+                            <h5><a href="<?=base_url('news/detail')?>?id=<?=$annon['id']?>" style="color:#333;"><?=$annon['title']?></a>
+                            </h5>
+                            <p><?=$annon['title']?>...</p>
+                        </div>
+                        <ul class="bottom-ul left" style="margin-left: 20px;">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>
+
+                        </ul>
+                        <ul class="bottom-ul right">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>>
+
+                        </ul>
+                    </div>
+                    <div class="i_box i_3 ">
+                        <div class="intro">
+                        </div>
+                        <ul class="bottom-ul left" style="margin-left: 20px;">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>>
+                        </ul>
+                        <ul class="bottom-ul right">
+                            <?php foreach($annonList as $key=>$value):?>
+                            <li>
+                                <span class="circle"></span>
+                                <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                            </li>
+                            <?php endforeach;?>>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 notice-bg">
+                    <div class="title" style="margin-top: 40px;margin-bottom: 30px;">
+                        <a href="<?=base_url('news/notice')?>" class="all1">全部通知 <span class="icon-ss"></span></a>
+
+                        <span class="icon notices-i"></span>
+
+                        <h3 style="overflow: hidden;white-space: nowrap;height: 25px;">部门通知<span class="en-title">NOTIFICATION</span>
+                        </h3>
+                    </div>
+                    <div class="intros">
+                        <h5><a href="https://rda.easy2doc.com/archives/1715-flag=gzdt.htm" style="color:#333;font-size:16px;font-weight:400;"><?=$notice['title']?></a></h5>
+                        <p><?=$notice['content']?>...</p>
+                    </div>
+                    <ul class="ul-list" style="list-style-type: none;">
+                        <?php foreach($noticeList as $key=>$value):?>
+                        <li>
+                            <span class="circle"></span>
+                            <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#333;"><?=$annon['title']?>...</a>
+                        </li>
+                        <?php endforeach;?>>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="work" style="padding-top:37px;">
+        <div class="container">
+            <div>
+                <div class="title">
+                    <span class="icon work-i"></span>
+                    <a href="https://sysb.ruc.edu.cn/archives/category/gzzt" style="color: #fff" class="all">全部动态 <span class="icon-ss-w"></span></a>
+
+                    <h3>工作动态<span class="en-title">NEWS</span></h3>
+                </div>
+                <div class="work-m-top" style="font-size:0;">
+                    <div class="row">
+
+                        <?php foreach($work as $key=>$value):?>
+
+                        <?php if($key == 0):?>
+                            <div class="col-md-3 col-ms-3 col-xs-12">
+                                <div class="card" style="display: inline-block;">
+                                    <div class="date"><?=$value['create_date']?></div>
+                                    <h5><a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#fff;"><?=$value['title']?></a>
+                                    </h5>
+                                    <p><?=$value['content']?>...</p>
+                                </div>
+                            </div>
+                        <?php else:?>
+                        <div class="col-md-3 col-ms-3 col-xs-12 hidden-xs">
+                            <div class="card" style="display: inline-block;">
+                                <div class="date"><?=$value['create_date']?></div>
+                                <h5><a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#fff;"><?=$value['title']?></a>
+                                </h5>
+                                <p><?=$value['content']?>...</p>
+                            </div>
+                        </div>
+                        <?php endif:?>
+
+                        <?php endforeach;?>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 visible-xs">
+                    <ul class="work-m-bottom" style="font-size: 14px;">
+                        <?php foreach($work as $key=>$value):?>
+                        <li>
+                            <span class="cir"></span>
+                            <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>" style="color:#fff;"><?=$value['title']?></a>
+                        </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <?php $this->load->view("html/footer.html")?>
+<script type="text/javascript">
+    console.log("38");
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            // $('.menu-box-m').css('display','none');
+            $('.menu-box-m').fadeOut();
+        } else {
+        }
+    });
+    var iM = 0;
+    $('.menu-m').click(function () {
+        if (iM == 0) {
+            $('.menu-box-m').show();
+            iM = 1;
+        } else {
+            $('.menu-box-m').hide();
+            iM = 0;
+        }
+
+    })
+    var ii = 0;
+    $('.menu-m-list li').click(function () {
+        // alert('s');
+        $(this).find('.son-ul-m').fadeIn();
+        if (ii == 0) {
+            $(this).find('.son-ul-m').show();
+            ii = 1;
+            $(this).find('span').removeClass('xiala');
+            $(this).find('span').addClass('heshang');
+        } else {
+            $(this).find('.son-ul-m').hide();
+            ii = 0;
+            $(this).find('span').removeClass('heshang');
+            $(this).find('span').addClass('xiala');
+        }
+    })
+    $('.head-bottom .par-ul li').hover(function () {
+        var width = $(this).width();
+        var widthSon = width + 90 + 'px';
+        $(this).find('.son-ul li').css('width', widthSon);
+        $(this).find('.son-ul').css('left', '-45px');
+        $(this).find('.son-ul').show();
+    })
+
+    // 地图
+    function mapSize() {
+        if ($(window).width() < 768) {
+            $('#service_map').css('height', '155px');
+        } else {
+            $('#service_map').css('height', '269px');
+        }
+    }
+
+    mapSize()
+
+    $(window).resize(function () {
+        mapSize()
+    })
+    $('.blue-clo').click(function () {
+        $('.addvertise').hide();
+    })
+
+</script>
+<script type="text/javascript">
+
+    $('#man-ul li').click(function () {
+        var indexM = $(this).index() + 1;
+        $('#man-ul li a').removeClass('active');
+        $(this).find('a').addClass('active');
+        var box = $('.lists-ul');
+        box.hide();
+        $('.box_' + indexM).show();
+    })
+
+    var i = 0;
+    // $('.regulations li').click(function(){
+    // 	if(i==0){
+    // 		$(this).find('.res-left-ul').show();
+    // 		i=1
+    // 	}else{
+    // 		$(this).find('.res-left-ul').hide();
+    // 		i=0;
+    // 	}
+    // })
+    $('.pic-row img').hover(function () {
+        $(this).parent().find('.p-left').css('opacity', '1');
+        $(this).parent().find('.p-right').css('opacity', '1');
+    }, function () {
+        $(this).parent().find('.p-left').css('opacity', '0.6');
+        $(this).parent().find('.p-right').css('opacity', '0.6');
+    })
+</script>
 </body>
 </html>

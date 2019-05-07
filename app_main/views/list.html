@@ -1,10 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<?php $this->load->view("html/static.html")?>
 <body>
 
+<div class="header hidden-xs hidden-sm hidden-md ">
+    <div class="container">
+        <div class="head-top">
+            <div class="left">
+                <a href="../../index.htm" tppabs="https://sysb.ruc.edu.cn/">
+                    <img src="../../wp-content/themes/equip/images/logo-pc.png"
+                         tppabs="https://sysb.ruc.edu.cn/wp-content/themes/equip/images/logo-pc.png" alt="">
+                </a>
+            </div>
+            <form action="https://sysb.ruc.edu.cn/" method="get">
+                <div class="right">
+                    <input type="text" name="s" placeholder="搜索">
+                    <a href="javascript:void(0);">OA登录</a>
+                    <a class="wlink" href="../../code.htm" tppabs="https://sysb.ruc.edu.cn/code">线上联络</a>
+                </div>
+            </form>
+        </div>
+        <div class="head-bottom">
+            <ul class="par-ul">
+                <li><a href="index.htm" tppabs="https://sysb.ruc.edu.cn/">首 页</a>
+                </li>
+
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=211">机构设置</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=211">部门简介</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=217">综合办公室</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=215">货物服务采购办公室</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=213">工程修缮采购办公室</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/zcglxgzd">规章制度</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/zcglxgzd">货物服务采购制度</a>
+                        </li>
+                        <li><a href="#"
+                               tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/sysjsyglxgzd">工程修缮采购制度</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="archives/category/gzzd/zcglxgzd.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/zcglxgzd"></a>-->
+                <!--<ul class="son-ul">-->
+                <!--<li><a href="archives/category/gzzd/zcglxgzd.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/zcglxgzd">法律法规</a></li>-->
+                <!--<li><a href="archives/category/gzzd/sysjsyglxgzd.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gzzd/sysjsyglxgzd">学校制度</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bslc/zcgl">办事流程</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bslc/zcgl">货物服务采购流程</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bslc/sbgzygl">工程修缮采购流程</a>
+                        </li>
+                        <!--<li><a href="archives/category/bslc/sysgl.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/bslc/sysgl">采购与招标管理中心管理</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/sbgzgzdt">货物服务采购</a>
+                    <!--<ul class="son-ul">-->
+                    <!--<li><a href="archives/category/sbgzygl-2/sbgzgzdt.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/sbgzgzdt">设备购置工作动态</a></li>-->
+                    <!--<li><a href="archives/category/sbgzygl-2/sbgzfs.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/sbgzfs">设备购置方式</a></li>-->
+                    <!--<li><a href="archives/category/sbgzygl-2/zbgg.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/zbgg">招标公告</a></li>-->
+                    <!--<li><a href="archives/category/sbgzygl-2/zbjggs.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/zbjggs">招标结果公示</a></li>-->
+                    <!--<li><a href="archives/category/sbgzygl-2/xyghxxgs.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/sbgzygl-2/xyghxxgs">入围协议供应商信息</a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/gdzcgl/zcglgzdt">工程修缮采购</a>
+                    <!--<ul class="son-ul">-->
+                    <!--<li><a href="archives/category/gdzcgl/zcglgzdt.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gdzcgl/zcglgzdt">资产管理工作动态</a></li>-->
+                    <!--<li><a href="archives/category/gdzcgl/yqsbgl.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gdzcgl/yqsbgl">资产管理架构</a></li>-->
+                    <!--<li><a href="archives/category/gdzcgl/dxyqsbgl.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gdzcgl/dxyqsbgl">资产管理员岗位职责</a></li>-->
+                    <!--<li><a href="archives/category/gdzcgl/zcqcgl.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/gdzcgl/zcqcgl">资产调拨管理</a></li>-->
+                    <!--</ul>-->
+                </li>
+
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=219">采购公告</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=219">货物服务采购公告</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=221">工程修缮采购公告</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=219">采购结果</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=219">货物服务采购结果</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/?page_id=221">工程修缮采购结果</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bmfc/zbhd">部门风采</a>
+                    <ul class="son-ul">
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bmfc/zbhd">支部活动</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bmfc/ghhd">工会活动</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bmfc/sxds">摄像大师</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/bmfc/qt-bmfc">其他</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/zcgl-cyxz">常用下载</a>
+                    <ul class="son-ul">
+                        <!--<li><a href="archives/category/cyxz/zcgl-cyxz.htm" tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/zcgl-cyxz">资产管理</a></li>-->
+                        <li><a href="#"
+                               tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/sbgzygl-cyxz">货物服务采购管理</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/sysgl-cyxz">工程修缮采购管理</a>
+                        </li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/sysgl-cyxz">合同管理</a></li>
+                        <li><a href="#" tppabs="https://sysb.ruc.edu.cn/archives/category/cyxz/qt">其他</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 移动端header -->
+<?php $this->load->view("html/mobile-header.html")?>
+<!-- 移动端菜单 -->
+<?php $this->load->view("html/mobile-menus.html")?>
+<div class="banner banner-lists hidden-xs">
+    <div class="mask"></div>
+    <h3><?=$class_name?></h3>
+    <!-- <span class="english">News</span> -->
+</div>
+<div id="detail">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 hidden-md hidden-sm hidden-xs ">
+                    <ul class="regulations">
+
+                        <?php foreach($class as $key=>$value):?>
+
+                             <?php if($value['id'] == $class['id']):?>
+                                <li class="r-par-li">
+                                    <a class="active-a" href="<?=base_url('news/index')?>?class_id=<?=$class['id']?>">
+                                        <div class="a-box" style="">
+                                            <span class="icon i-1"></span>
+                                            <?=$value['class_name']?>
+                                        </div>
+                                    </a>
+                                </li>
+                             <?php else:?>
+                                <li class="">
+                                    <a class="" href="">
+                                        <div class="a-box" style="">
+                                            <span class="icon i-3"></span>
+                                              <?=$value['class_name']?>
+                                        </div>
+                                    </a>
+                                </li>
+                             <?php endif;?>
+
+                        <?php endforeach;?>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 content-box" style="border:none;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a href="<?=base_url('')?>">
+                                <span class="i-home"></span> 首页
+                                <span class="icon-ss hidden-xs" style="top:8px;right:-8px;"></span>
+                                <span class="icon-ss visible-xs" style="top:9px;right:-8px;"></span>
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a href="javascript:void(0);" class="active"><?=$class_name?></a>
+                        </li>
+                    </ul>
+                    <div class="article">
+                        <h2 style="padding-bottom: 0px;">
+                            <span style="padding-bottom: 20px;display: inline-block;border-bottom: 3px solid #3395e2;"><?=$class_name?></span>
+                        </h2>
+                        <div class="lists-box">
+                            <ul class="lists-ul" style="padding: 0;">
+                                <?php foreach($list as $key=>$value):?>
+                                <li>
+                                    <a href="<?=base_url('news/detail')?>?id=<?=$value['id']?>"><?=$value['title']?></a>
+                                </li>
+                                <?php endforeach;?>
+                            </ul>
+                        </div>
+                        <div class="page-div" style="text-align: right;">
+                            <ul class="page-ul">
+                                <li class='active'><a href="notice.htm">1</a></li>
+                                <li><a href="notice/page/2.htm">2</a></li>
+                                <li><a href="notice/page/3.htm">3</a></li>
+                                <li><a href="notice/page/4.htm">4</a></li>
+                                <li><a href="notice/page/2.htm">>></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php $this->load->view('html/footer.html')?>
+<script type="text/javascript">
+    console.log("32");
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            // $('.menu-box-m').css('display','none');
+            $('.menu-box-m').fadeOut();
+        } else {
+        }
+    });
+    var iM = 0;
+    $('.menu-m').click(function () {
+        if (iM == 0) {
+            $('.menu-box-m').show();
+            iM = 1;
+        } else {
+            $('.menu-box-m').hide();
+            iM = 0;
+        }
+
+    })
+    var ii = 0;
+    $('.menu-m-list li').click(function () {
+        // alert('s');
+        $(this).find('.son-ul-m').fadeIn();
+        if (ii == 0) {
+            $(this).find('.son-ul-m').show();
+            ii = 1;
+            $(this).find('span').removeClass('xiala');
+            $(this).find('span').addClass('heshang');
+        } else {
+            $(this).find('.son-ul-m').hide();
+            ii = 0;
+            $(this).find('span').removeClass('heshang');
+            $(this).find('span').addClass('xiala');
+        }
+    })
+    $('.head-bottom .par-ul li').hover(function () {
+        var width = $(this).width();
+        var widthSon = width + 90 + 'px';
+        $(this).find('.son-ul li').css('width', widthSon);
+        $(this).find('.son-ul').css('left', '-45px');
+        $(this).find('.son-ul').show();
+    })
+
+    // 地图
+    function mapSize() {
+        if ($(window).width() < 768) {
+            $('#service_map').css('height', '155px');
+        } else {
+            $('#service_map').css('height', '269px');
+        }
+    }
+
+    mapSize()
+
+    $(window).resize(function () {
+        mapSize()
+    })
+    $('.blue-clo').click(function () {
+        $('.addvertise').hide();
+    })
+
+</script>
+<script type="text/javascript">
+
+    $('#man-ul li').click(function () {
+        var indexM = $(this).index() + 1;
+        $('#man-ul li a').removeClass('active');
+        $(this).find('a').addClass('active');
+        var box = $('.lists-ul');
+        box.hide();
+        $('.box_' + indexM).show();
+    })
+
+    var i = 0;
+    // $('.regulations li').click(function(){
+    // 	if(i==0){
+    // 		$(this).find('.res-left-ul').show();
+    // 		i=1
+    // 	}else{
+    // 		$(this).find('.res-left-ul').hide();
+    // 		i=0;
+    // 	}
+    // })
+    $('.pic-row img').hover(function () {
+        $(this).parent().find('.p-left').css('opacity', '1');
+        $(this).parent().find('.p-right').css('opacity', '1');
+    }, function () {
+        $(this).parent().find('.p-left').css('opacity', '0.6');
+        $(this).parent().find('.p-right').css('opacity', '0.6');
+    })
+</script>
 </body>
 </html>

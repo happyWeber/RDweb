@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php $this->load->view("html/static.html")?>
+<body>
+
+<?php $this->load->view("html/pc-menus.html")?>
+
+<!-- 移动端header -->
+<?php $this->load->view("html/mobile-header.html")?>
+<!-- 移动端菜单 -->
+<?php $this->load->view("html/mobile-menus.html")?>
+<div class="banner banner-lists hidden-xs">
+    <div class="mask"></div>
+    <h3><?=$class['name']?> </h3>
+    <!-- <span class="english">News</span> -->
+</div>
+<div id="detail">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 hidden-md hidden-sm  hidden-xs ">
+                    <ul class="regulations">
+
+                        <?php foreach($class as $key=>$value):?>
+
+                        <?php if($value['id'] == $class['id']):?>
+                        <li class="r-par-li">
+                            <a class="active-a" href="<?=base_url('news/index')?>?class_id=<?=$class['id']?>">
+                                <div class="a-box" style="">
+                                    <span class="icon i-1"></span>
+                                    <?=$value['class_name']?>
+                                </div>
+                            </a>
+                        </li>
+                        <?php else:?>
+                        <li class="">
+                            <a class="" href="">
+                                <div class="a-box" style="">
+                                    <span class="icon i-3"></span>
+                                    <?=$value['class_name']?>
+                                </div>
+                            </a>
+                        </li>
+                        <?php endif;?>
+
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+                <div id="details">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 content-box">
+                        <ul class="nav-ul">
+                            <li>
+                                <a href="<?=base_url('')?>">
+                                    <span class="i-home"></span> 首页
+                                    <span class="icon-ss hidden-xs" style="top:8px;right:-8px;"></span>
+                                    <span class="icon-ss visible-xs" style="top:9px;right:-8px;"></span>
+                                </a>
+                            </li>
+
+
+                            <li>
+
+                                <a href="javascript:void(0);" class="active"><?=$class_name?></a>
+                            </li>
+                        </ul>
+                        <div class="article">
+                            <div class="toolbox_fontsize">
+                                <span class="f3">A</span>
+                                <span class="f2 cur">A</span>
+                                <span class="f1">A</span>
+                                <span>T</span>
+                            </div>
+                            <h2><?=$detail['title']?> <span class="date">$detail['create_date']</span>
+                            </h2>
+                            <div class="main">
+                                <?=$detail['content']?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('.toolbox_fontsize span:not(:last-child)').on('click', function () {
+                $indx = $(this).index();
+                //console.log($indx);
+                $font_size = 16 - $indx * 2;
+                $(this).siblings().removeClass('cur');
+                $(this).addClass('cur');
+                $('https://sysb.ruc.edu.cn/archives/.article .main').css('font-size', $font_size + 'px');
+            });
+        });
+    </script>
+    <?php $this->load->view("html/footer.html")?>
+
+</div>
+
+<script type="text/javascript">
+    console.log("4");
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            // $('.menu-box-m').css('display','none');
+            $('.menu-box-m').fadeOut();
+        } else {
+        }
+    });
+    var iM = 0;
+    $('.menu-m').click(function () {
+        if (iM == 0) {
+            $('.menu-box-m').show();
+            iM = 1;
+        } else {
+            $('.menu-box-m').hide();
+            iM = 0;
+        }
+
+    })
+    var ii = 0;
+    $('.menu-m-list li').click(function () {
+        // alert('s');
+        $(this).find('.son-ul-m').fadeIn();
+        if (ii == 0) {
+            $(this).find('.son-ul-m').show();
+            ii = 1;
+            $(this).find('span').removeClass('xiala');
+            $(this).find('span').addClass('heshang');
+        } else {
+            $(this).find('.son-ul-m').hide();
+            ii = 0;
+            $(this).find('span').removeClass('heshang');
+            $(this).find('span').addClass('xiala');
+        }
+    })
+    $('.head-bottom .par-ul li').hover(function () {
+        var width = $(this).width();
+        var widthSon = width + 90 + 'px';
+        $(this).find('.son-ul li').css('width', widthSon);
+        $(this).find('.son-ul').css('left', '-45px');
+        $(this).find('.son-ul').show();
+    })
+
+    // 地图
+    function mapSize() {
+        if ($(window).width() < 768) {
+            $('#service_map').css('height', '155px');
+        } else {
+            $('#service_map').css('height', '269px');
+        }
+    }
+
+    mapSize()
+
+    $(window).resize(function () {
+        mapSize()
+    })
+    $('.blue-clo').click(function () {
+        $('.addvertise').hide();
+    })
+
+</script>
+<script type="text/javascript">
+
+    $('#man-ul li').click(function () {
+        var indexM = $(this).index() + 1;
+        $('#man-ul li a').removeClass('active');
+        $(this).find('a').addClass('active');
+        var box = $('.lists-ul');
+        box.hide();
+        $('.box_' + indexM).show();
+    })
+
+    var i = 0;
+    // $('.regulations li').click(function(){
+    // 	if(i==0){
+    // 		$(this).find('.res-left-ul').show();
+    // 		i=1
+    // 	}else{
+    // 		$(this).find('.res-left-ul').hide();
+    // 		i=0;
+    // 	}
+    // })
+    $('.pic-row img').hover(function () {
+        $(this).parent().find('.p-left').css('opacity', '1');
+        $(this).parent().find('.p-right').css('opacity', '1');
+    }, function () {
+        $(this).parent().find('.p-left').css('opacity', '0.6');
+        $(this).parent().find('.p-right').css('opacity', '0.6');
+    })
+</script>
+</body>
+</html>
