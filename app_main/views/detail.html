@@ -11,7 +11,7 @@
 <?php $this->load->view("html/mobile-menus.html")?>
 <div class="banner banner-lists hidden-xs">
     <div class="mask"></div>
-    <h3><?=$class['name']?> </h3>
+    <h3><?=$class['news_type_name']?> </h3>
     <!-- <span class="english">News</span> -->
 </div>
 <div id="detail">
@@ -21,23 +21,23 @@
                 <div class="col-lg-3 hidden-md hidden-sm  hidden-xs ">
                     <ul class="regulations">
 
-                        <?php foreach($class as $key=>$value):?>
+                        <?php foreach($classList as $key=>$value):?>
 
                         <?php if($value['id'] == $class['id']):?>
                         <li class="r-par-li">
-                            <a class="active-a" href="<?=base_url('news/index')?>?class_id=<?=$class['id']?>">
+                            <a class="active-a" href="<?=base_url('news/newsList')?>?type=<?=$value['id']?>">
                                 <div class="a-box" style="">
                                     <span class="icon i-1"></span>
-                                    <?=$value['class_name']?>
+                                    <?=$value['news_type_name']?>
                                 </div>
                             </a>
                         </li>
                         <?php else:?>
                         <li class="">
-                            <a class="" href="">
+                            <a class="" href="<?=base_url('news/newsList')?>?type=<?=$value['id']?>">
                                 <div class="a-box" style="">
                                     <span class="icon i-3"></span>
-                                    <?=$value['class_name']?>
+                                    <?=$value['news_type_name']?>
                                 </div>
                             </a>
                         </li>
@@ -60,7 +60,7 @@
 
                             <li>
 
-                                <a href="javascript:void(0);" class="active"><?=$class_name?></a>
+                                <a href="javascript:void(0);" class="active"><?=$class['news_type_name']?></a>
                             </li>
                         </ul>
                         <div class="article">
@@ -70,7 +70,7 @@
                                 <span class="f1">A</span>
                                 <span>T</span>
                             </div>
-                            <h2><?=$detail['title']?> <span class="date">$detail['create_date']</span>
+                            <h2><?=$detail['title']?> <span class="date"><?=$detail['create_date']?></span>
                             </h2>
                             <div class="main">
                                 <?=$detail['content']?>

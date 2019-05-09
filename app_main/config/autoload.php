@@ -20,13 +20,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | These are the things you can load automatically:
 |
-| 1. Packages
-| 2. Libraries
-| 3. Drivers
-| 4. Helper files
+| 1. Packages 包
+| 2. Libraries 类库
+| 3. Drivers 驱动
+| 4. Helper files 用户自定义的辅助文件
 | 5. Custom config files
-| 6. Language files
-| 7. Models
+| 6. Language files 语言包
+| 7. Models 模型类
 |
 */
 
@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('session','database','image_lib');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url_helper','common_helper');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +103,7 @@ $autoload['helper'] = array();
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+$autoload['config'] = array("");
 
 /*
 | -------------------------------------------------------------------
